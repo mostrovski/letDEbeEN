@@ -1,0 +1,439 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Book Antiqua", Palatino, serif;
+	font-size: small;
+	color: #2d3c49;
+}
+
+h1 {
+	margin: 0;
+	line-height: 1em;
+}
+
+h5 {
+	margin: 0.2em 0 0 0;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: #1284c6;
+}
+
+.hidden {
+	display: none;
+}
+
+.noselect {
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/****************************************************************************
+ *
+ *                              HEADER
+ *
+ ***************************************************************************/
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header__logo {
+	width: 10%;
+}
+
+.header__logo img {
+	max-width: 64px;
+}
+.header__title {
+	font-size: 1em;
+	text-align: right;
+	letter-spacing: 0.35em;
+	width: 90%;
+}
+
+/****************************************************************************
+ *
+ *                              SEARCH
+ *
+ ***************************************************************************/
+
+input {
+	font-size: 14px;
+	outline: none;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 10px 5px;
+    margin-bottom: 2px;
+    border: 0.1em solid #7d97ad;
+    font-size: 16px;
+	letter-spacing: 0.1em;
+    border-radius: 10px;
+}
+
+input[type=text]:focus {
+    border: 0.1em solid #1284c6;
+    background-color: #1284c6;
+    color: #ffffff;
+}
+
+#main__buttons, #form__buttons {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#main__buttons button, #form__buttons button {
+	font-size: 0.8em;
+	outline: none;
+	padding: 10px 20px;
+    border: none;
+	border-radius: 10px;
+    background-color: #7d97ad;
+    color: #ffffff;
+	letter-spacing: 0.25em;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-right: 5px;
+	width: calc((100% - 10px)/3);
+}
+
+#main__buttons button:last-of-type, #form__buttons button:last-of-type {
+	margin-right: 0px;
+}
+
+#main__buttons button:hover, #form__buttons button:hover {
+	background-color: #2d3c49;
+}
+
+/****************************************************************************
+ *
+ *                              TRANSLATED
+ *
+ ***************************************************************************/
+
+.german {
+	color: #7d97ad;
+	font-size: 1.75em;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	margin-bottom: 0.25em;
+	margin-top: 0.15em;
+	padding-left: 2px;
+}
+
+.translation {
+	margin: 0 0 0.5em 0;
+}
+
+.translation div {
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 0 1px 0 1px;
+	text-align: center;
+	border: 0.1em solid #7d97ad;
+	border-radius: 10px;
+}
+
+.word__details {
+	font-size: 1.5em;
+}
+
+/****************************************************************************
+ *
+ *                              BUTTONS
+ *
+ ***************************************************************************/
+
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 0 0.25em 0;
+}
+
+.buttons button {
+	margin: 0 2.5px 10px 2.5px;
+	width: calc((100% - 10px)/2);
+	padding: 10px 0 10px 0;
+    border: none;
+    background-color: #7d97ad;
+    color: #ffffff;
+    letter-spacing: 0.25em;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	cursor: pointer;
+	outline: none;
+}
+
+.buttons button:last-of-type {
+	margin: 0 0 5px 0;
+	width: 100%;
+}
+
+.buttons button:hover {
+	background-color: #2d3c49;
+}
+
+/****************************************************************************
+ *
+ *                              TABLES
+ *
+ ***************************************************************************/
+
+.tables {
+	font-size: 1.1em;
+	overflow-x: auto;
+}
+
+.tables table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tables td, .tables th {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tables tr {
+	vertical-align: top;
+}
+
+.tables tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.tables tr:hover {
+	background-color: #ddd;
+}
+
+.tables tbody tr:hover{
+	cursor: pointer;
+}
+
+.tables th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1284c6;
+    color: white;
+    font-weight: normal;
+}
+
+/****************************************************************************
+ *
+ *                              FORMS
+ *
+ ***************************************************************************/
+
+.forms {
+	padding: 10px;
+	background-color: #fafafa;
+} 
+
+.forms textarea {
+	width: 100%;
+    height: 100px;
+    padding: 10px 5px;
+	resize: none;
+	outline: none;
+	border: 0.1em solid #7d97ad;
+	font-size: 16px;
+ }
+ 
+.forms textarea:focus {
+    border: 0.1em solid #1284c6;
+    background-color: #1284c6;
+    color: #ffffff;
+}
+ 
+ .forms input[type=text] {
+	border-radius: 0px;
+ }
+ 
+ .forms label {
+	font-size: 1.2em;
+	display: inline-block;
+	margin-bottom: 5px;
+ }
+ 
+ #form__buttons button {
+ 	width: calc((100% - 5px)/2);
+ }
+
+ .form_main_header {
+	 font-size: 1.35em;
+ }
+ 
+ .invalid {
+	background-color: #C70039;
+	color: #ffffff;
+ }
+ 
+ .red {
+	 color: red;
+ }
+ 
+ #field_plus, #field_minus, #adv_field_plus, #adv_field_minus, #entry_update, 
+ #entry_delete {
+	background-color: #7d97ad;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 0 15px 0 15px;
+	font-size: 16px;
+ }
+
+#entry_update, #entry_delete {
+	display: block;
+	padding: 12px 0 12px 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 0.8em;
+	letter-spacing: 0.25em;
+	
+}
+
+#entry_update:hover, #entry_delete:hover {
+	background-color: #2d3c49;
+}
+
+#word_upd, #word_del, #entry_update, #entry_delete {
+	border-radius: 10px;
+}
+
+/****************************************************************************
+ *
+ *                              FOOTER
+ *
+ ***************************************************************************/
+
+footer {
+	border-top: 0.15em solid #7d97ad;
+	padding: 0.5em 0 0 0;
+}
+
+.copyright {
+	font-size: 0.85em;
+	text-align: center;
+}
+
+/****************************************************************************
+ *
+ *                              RESPONSIVE
+ *
+ ***************************************************************************/
+
+@media screen and (max-width: 320px) {
+	.header__title {
+		letter-spacing: 0.25em;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	#main__buttons button {
+		width: calc((100% - 3px)/2);
+		margin: 0 0 2px 3px;
+	}
+	#main__buttons button:first-of-type {
+		margin-left: 0;
+	}
+	#main__buttons button:last-of-type {
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 449px) {
+	.header__title {
+		font-size: 1.25em;
+	}
+}
+
+@media screen and (min-width: 450px) {
+	body {
+		font-size: large;
+	}
+}
+
+@media screen and (min-width: 550px) {
+	body {
+		font-size: larger;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	body {
+		font-size: x-large;
+	}
+
+	h1 {
+		line-height: 0.8em;
+	}
+
+	#main__buttons button, #form__buttons button, #entry_update, 
+	#entry_delete {
+		font-size: 14px;
+	}
+	
+	.forms label {
+		font-size: 20px;
+	}
+ 
+	.form_main_header {
+		font-size: 25px;
+	}
+	
+	
+	.translation {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 0 0.5em 0;
+	}
+
+	.translation div {
+		margin-bottom: 0;
+		margin-right: 10px;
+		width: calc((100% - 20px)/3);
+	}
+
+	.translation div:last-of-type {
+		margin-right: 0;
+	}
+
+	.word__details {
+		font-size: 19px;
+	}
+
+	.buttons button {
+		margin: 0 5px 0 0;
+		width: calc((100% - 20px)/5);
+		font-size: 14px;
+	}
+
+	.buttons button:last-of-type {
+		margin: 0;
+		width: calc((100% - 20px)/5);
+	}
+	
+	.tables {
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	body {
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

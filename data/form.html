@@ -1,0 +1,191 @@
+<form id="dform">
+	<div id="__manage_action">
+		<span class="form_main_header">
+			Choose the action
+		</span>
+		<p id="__choose_action">
+			<input type="radio" name="action_type" id="create_type">
+			<label for="create_type">add a new entry</label><br>
+		
+			<input type="radio" name="action_type" id="update_type">
+			<label for="update_type">change the entry</label><br>
+
+			<input type="radio" name="action_type" id="delete_type">
+			<label for="delete_type">delete the entry</label>
+		</p>
+	</div>
+	
+	<div id="__update" class="hidden">
+		<p>
+			<input type="text" name="word_upd" id="word_upd" placeholder="specify the entry in German">
+			<span id="entry_update" class="noselect">
+				change
+			</span>
+		</p>
+	</div>
+
+	<div id="__delete" class="hidden">
+		<p>
+			<input type="text" name="word_del" id="word_del" placeholder="specify the entry in German">
+			<span id="entry_delete" class="noselect">
+				delete
+			</span>
+		</p>
+	</div>
+
+	<section id="entry_data">
+		<div id="__general_details" class="hidden">
+			<span class="form_main_header" id="new_word">
+				Word
+			</span>
+			<p>
+				<input type="text" name="the_word" id="word_spell" placeholder="in German">
+			</p>
+		
+			<div id="translation_section">
+				<span class="form_main_header">
+					Translation 
+				</span>
+				<span id="field_plus" class="noselect">&plus;</span>
+				<span id="field_minus" class="noselect">&minus;</span>
+				<p id="general">
+					<input type="text" name="translation" id="word_translate" placeholder="into English">
+				</p>
+			</div>
+			<div id="example_section">
+				<span class="form_main_header">
+					Example
+				</span>
+				<p>
+					<textarea name="example" id="word_example" placeholder="sentence in German, at least 10 characters long"></textarea>
+				</p>
+			</div>
+		</div>
+
+		<div id="__word_type" class="hidden">
+			<span class="form_main_header">
+				Choose the word type
+			</span>
+			<p id="__choose_type">
+				<input type="radio" name="word_type" id="noun_type">
+				<label for="noun_type">noun</label><br>
+			
+				<input type="radio" name="word_type" id="verb_type">
+				<label for="verb_type">verb</label><br>
+			
+				<input type="radio" name="word_type" id="adj_type">
+				<label for="adj_type">adjective</label><br>
+			
+				<input type="radio" name="word_type" id="adv_type">
+				<label for="adv_type">adverb</label><br>
+			</p>
+		</div>
+
+		<div id="__noun_forms" class="hidden">
+			<span class="form_main_header">
+				Fill out inflected forms
+			</span>
+			<p>
+				<label for="form_nominativ">nominative with article</label>
+				<input type="text" name="nominativ" id="form_nominativ" placeholder="der/die/das Nominativ">
+			</p>
+			<p>
+				<label for="form_plural">plural with article</label>
+				<input type="text" name="plural" id="form_plural" placeholder="die Plural">
+			</p>
+			<p>
+				<label for="form_genitiv">genitiv with article</label>
+				<input type="text" name="genitiv" id="form_genitiv" placeholder="des/der Genitiv">
+			</p>
+		</div>
+
+		<div id="__verb_forms" class="hidden">
+			<span class="form_main_header">
+				Fill out inflected forms
+			</span>
+			<div id="present_forms">
+				<p>
+					<label for="form_ich">ich</label>
+					<input type="text" name="ich" id="form_ich">
+				</p>
+				<p>
+					<label for="form_du">du</label>
+					<input type="text" name="du" id="form_du">
+				</p>
+				<p>
+					<label for="form_es">es</label>
+					<input type="text" name="es" id="form_es">
+				</p>
+				<p>
+					<label for="form_ihr">ihr</label>
+					<input type="text" name="ihr" id="form_ihr">
+				</p>
+			</div>
+			<div id="past_forms">
+				<p>
+					<label>past perfect &darr;</label>
+					<p id="perfect_type">
+						<input type="radio" name="past_type" id="sein_type">
+						<label for="sein_type">sein</label>
+						<input type="radio" name="past_type" id="haben_type">
+						<label for="haben_type">haben</label>
+					</p>
+					<input type="text" name="perfect" id="form_perfect">
+				</p>
+			</div>
+		</div>
+
+		<div id="__adjective_forms" class="hidden">
+			<span class="form_main_header">
+				Fill out inflected forms
+			</span>
+			<p>
+				<label for="form_feminine">feminine</label>
+				<input type="text" name="feminine" id="form_feminine">
+			</p>
+			<p>
+				<label for="form_masculine">masculine</label>
+				<input type="text" name="masculine" id="form_masculine">
+			</p>
+			<p>
+				<label for="form_neutral">neutral</label>
+				<input type="text" name="neutral" id="form_neutral">
+			</p>
+			<div id="__adverb_request">
+				<span class="form_main_header">
+					Is there an adverb with the same spelling?
+				</span>
+				<p id="add_adverb">
+					<input type="radio" name="sameadverb" id="adverb_true">
+					<label for="adverb_true">yes</label>
+					<input type="radio" name="sameadverb" id="adverb_false">
+					<label for="adverb_false">no</label>
+				</p>
+			</div>
+		</div>
+
+		<div id="__additional_adverb" class="hidden">		
+			<span class="form_main_header">
+				Adverb translation 
+			</span>
+			<span id="adv_field_plus" class="noselect">&plus;</span>
+			<span id="adv_field_minus" class="noselect">&minus;</span>
+			<p id="adverb">
+				<input type="text" name="adv_translation" id="adv_translate" placeholder="into English">
+			</p>
+		
+			<span class="form_main_header">
+				Example
+			</span>
+			<p>
+				<textarea name="adv_example" id="adv_word_example" placeholder="sentence in German, at least 10 characters long"></textarea>
+			</p>
+		</div>
+	</section>
+</form>
+<section id="__manage-buttons" class="hidden">
+	<div id="form__buttons">
+		<button type="reset" id="clear_form" form="dform">reset</button>
+		<button id="save_changes">submit</button>
+	</div>
+</section>

@@ -1,0 +1,1244 @@
+{
+    "loeschtaste": {
+        "word": "Löschtaste",
+        "type": "noun",
+        "forms": [
+            "die Löschtaste",
+            "die Löschtasten",
+            "der Löschtaste"
+        ],
+        "example": "Drücken Sie löschtaste, um einen über die Tastatur eingegebenen Wert zu löschen",
+        "translation": [
+            "backspace key",
+            "BACKSPACE"
+        ]
+    },
+    "entfernentaste": {
+        "word": "Entfernentaste",
+        "type": "noun",
+        "forms": [
+            "die Entfernentaste",
+            "die Entfernentasten",
+            "der Entfernentaste"
+        ],
+        "example": "Um eine hinzugefügte Domäne wieder zu löschen, markieren Sie den entsprechenden Eintrag mit einem Mausklick und löschen Sie ihn mit der Entfernentaste",
+        "translation": [
+            "delete key",
+            "DEL"
+        ]
+    },
+    "feststelltaste": {
+        "word": "Feststelltaste",
+        "type": "noun",
+        "forms": [
+            "die Feststelltaste",
+            "die Feststelltasten",
+            "der Feststelltaste"
+        ],
+        "example": "Stellen Sie bei der Eingabe eines Passworts für ein Konto sicher, dass die Feststelltaste auf Ihrer Tastatur nicht versehentlich gedrückt ist",
+        "translation": [
+            "caps lock",
+            "CAPS"
+        ]
+    },
+    "steuerungstaste": {
+        "word": "Steuerungstaste",
+        "type": "noun",
+        "forms": [
+            "die Steuerungstaste",
+            "die Steuerungstasten",
+            "der Steuerungstaste"
+        ],
+        "example": "Für schon markierte Objekte kann das Kontext-Menü geöffnet werden, indem man bei gehaltener Umschalt- oder Steuerungstaste die rechte Maustaste drückt",
+        "translation": [
+            "control key",
+            "CTRL"
+        ]
+    },
+    "umschalttaste": {
+        "word": "Umschalttaste",
+        "type": "noun",
+        "forms": [
+            "die Umschalttaste",
+            "die Umschalttasten",
+            "der Umschalttaste"
+        ],
+        "example": "Wenn Sie die Umschalttaste gedrückt halten, können Sie mehrere Bilder gleichzeitig auswählen und allen markierten Bildern den gleichen Einblendeffekt zuweisen",
+        "translation": [
+            "shift key",
+            "SHIFT"
+        ]
+    },
+    "zelle": {
+        "word": "Zelle",
+        "type": "noun",
+        "forms": [
+            "die Zelle",
+            "die Zellen",
+            "der Zelle"
+        ],
+        "example": "Positionieren Sie den Mauszeiger in der Überschriftenzeile des Meldungsfensters in eine Zelle und betätigen die linke Maustaste, wird der Inhalt der Spalte markiert",
+        "translation": [
+            "cell"
+        ]
+    },
+    "zeile": {
+        "word": "Zeile",
+        "type": "noun",
+        "forms": [
+            "die Zeile",
+            "die Zeilen",
+            "der Zeile"
+        ],
+        "example": "Ich stellte die Daten in einer Tabelle mit vier Spalten und acht Zeilen dar",
+        "translation": [
+            "row",
+            "line"
+        ]
+    },
+    "spalte": {
+        "word": "Spalte",
+        "type": "noun",
+        "forms": [
+            "die Spalte",
+            "die Spalten",
+            "der Spalte"
+        ],
+        "example": "Die zweite Spalte auf dem Blatt wurde freigelassen",
+        "translation": [
+            "column"
+        ]
+    },
+    "tabelle": {
+        "word": "Tabelle",
+        "type": "noun",
+        "forms": [
+            "die Tabelle",
+            "die Tabellen",
+            "der Tabelle"
+        ],
+        "example": "In der Tabelle sind alle Produkte und deren Preise aufgelistet",
+        "translation": [
+            "table"
+        ]
+    },
+    "sicherheitskopie": {
+        "word": "Sicherheitskopie",
+        "type": "noun",
+        "forms": [
+            "die Sicherheitskopie",
+            "die Sicherheitskopien",
+            "der Sicherheitskopie"
+        ],
+        "example": "Hinweis: Erstellen Sie eine Sicherheitskopie der Daten, die sich im internen Speicher des Navigationsgerätes befinden",
+        "translation": [
+            "backup"
+        ]
+    },
+    "hintergrundfarbe": {
+        "word": "Hintergrundfarbe",
+        "type": "noun",
+        "forms": [
+            "die Hintergrundfarbe",
+            "die Hintergrundfarbe",
+            "der Hintergrundfarbe"
+        ],
+        "example": "Falls du die Hintergrundfarbe manipulieren willst, ändere den Wert der Eigenschaft 'background-color'",
+        "translation": [
+            "background color"
+        ]
+    },
+    "anschluss": {
+        "word": "Anschluss",
+        "type": "noun",
+        "forms": [
+            "der Anschluss",
+            "die Anschlüsse",
+            "des Anschlusses"
+        ],
+        "example": "Der Techniker hat einen neuen Anschluss für Kabelfernsehen installiert",
+        "translation": [
+            "connection",
+            "port"
+        ]
+    },
+    "anwender": {
+        "word": "Anwender",
+        "type": "noun",
+        "forms": [
+            "der Anwender",
+            "die Anwender",
+            "des Anwenders"
+        ],
+        "example": "Der Anwender drückte die Schaltfläche, um die Software zu starten",
+        "translation": [
+            "user"
+        ]
+    },
+    "spitzname": {
+        "word": "Spitzname",
+        "type": "noun",
+        "forms": [
+            "der Spitzname",
+            "die Spitznamen",
+            "des Spitznamens"
+        ],
+        "example": "Beispielsweise könnten Sie einen Befehl erstellen, der immer 'Eh?!' schreibt, wenn Sie Ihren Spitznamen eingeben",
+        "translation": [
+            "nickname"
+        ]
+    },
+    "anleitung": {
+        "word": "Anleitung",
+        "type": "noun",
+        "forms": [
+            "die Anleitung",
+            "die Anleitungen",
+            "der Anleitung"
+        ],
+        "example": "Ich habe eine Anleitung angeschaut, um zu lernen wie man Cupcakes macht",
+        "translation": [
+            "manual",
+            "tutorial"
+        ]
+    },
+    "helligkeit": {
+        "word": "Helligkeit",
+        "type": "noun",
+        "forms": [
+            "die Helligkeit",
+            "die Helligkeiten",
+            "der Helligkeit"
+        ],
+        "example": "Ich stellte die Helligkeit meines Computermonitors ein",
+        "translation": [
+            "brightness"
+        ]
+    },
+    "anwendung": {
+        "word": "Anwendung",
+        "type": "noun",
+        "forms": [
+            "die Anwendung",
+            "die Anwendungen",
+            "der Anwendung"
+        ],
+        "example": "Auf die gennante Weise wird die Bibliothek jQuery in Anwendungen eingebunden",
+        "translation": [
+            "application"
+        ]
+    },
+    "datei": {
+        "word": "Datei",
+        "type": "noun",
+        "forms": [
+            "die Datei",
+            "die Dateien",
+            "der Datei"
+        ],
+        "example": "Er speicherte alle seine Dateien regelmäßig",
+        "translation": [
+            "file"
+        ]
+    },
+    "mauszeiger": {
+        "word": "Mauszeiger",
+        "type": "noun",
+        "forms": [
+            "der Mauszeiger",
+            "die Mauszeiger",
+            "des Mauszeigers"
+        ],
+        "example": "Mit dieser Funktion lassen sich zu der aktuellen Variablen, auf der sich der Cursor befindet, weitere Variablen anzeigen",
+        "translation": [
+            "pointer",
+            "cursor"
+        ]
+    },
+    "entwurf": {
+        "word": "Entwurf",
+        "type": "noun",
+        "forms": [
+            "der Entwurf",
+            "die Entwürfe",
+            "des Entwurf(e)s"
+        ],
+        "example": "Nichts desto trotz hält es ebenfalls sehr gute Möglichkeiten für dich bereit, einen schnellen Entwurf deiner Website zu erstellen",
+        "translation": [
+            "design",
+            "sketch",
+            "outline"
+        ]
+    },
+    "eigenschaft": {
+        "word": "Eigenschaft",
+        "type": "noun",
+        "forms": [
+            "die Eigenschaft",
+            "die Eigenschaften",
+            "der Eigenschaft"
+        ],
+        "example": "Verschiedene Objekte derselben Klasse haben dieselben Eigenschaften",
+        "translation": [
+            "property",
+            "characteristic",
+            "feature"
+        ]
+    },
+    "dualzahl": {
+        "word": "Dualzahl",
+        "type": "noun",
+        "forms": [
+            "die Dualzahl",
+            "die Dualzahlen",
+            "der Dualzahl"
+        ],
+        "example": "Die über Tasten einstellbare Hexadezimalzahl wird in eine Dualzahl umgewandelt",
+        "translation": [
+            "binary number"
+        ]
+    },
+    "klammer": {
+        "word": "Klammer",
+        "type": "noun",
+        "forms": [
+            "die Klammer",
+            "die Klammern",
+            "der Klammer"
+        ],
+        "example": "Nach dem if-Wort steht in runden Klammern eine Bedingung",
+        "translation": [
+            "bracket",
+            "parenthesis"
+        ]
+    },
+    "fliesskommazahl": {
+        "word": "Fließkommazahl",
+        "type": "noun",
+        "forms": [
+            "die Fließkommazahl",
+            "die Fließkommazahlen",
+            "der Fließkommazahl"
+        ],
+        "example": "Diese Funktion wandelt eine Zeichenkette in eine Fließkommazahl um",
+        "translation": [
+            "floating point number"
+        ]
+    },
+    "datenbank": {
+        "word": "Datenbank",
+        "type": "noun",
+        "forms": [
+            "die Datenbank",
+            "die Datenbanken",
+            "der Datenbank"
+        ],
+        "example": "Wir müssen die Datensätze in der Datenbank überprüfen",
+        "translation": [
+            "database"
+        ]
+    },
+    "anweisung": {
+        "word": "Anweisung",
+        "type": "noun",
+        "forms": [
+            "die Anweisung",
+            "die Anweisungen",
+            "der Anweisung"
+        ],
+        "example": "In diesem Programm wird die Übersichtlichkeit verbessert, indem mehrere Anweisungen in eine Zeile geschrieben werden",
+        "translation": [
+            "instruction",
+            "statement"
+        ]
+    },
+    "anfangswert": {
+        "word": "Anfangswert",
+        "type": "noun",
+        "forms": [
+            "der Anfangswert",
+            "die Anfangswerte",
+            "des Anfangswert(e)s"
+        ],
+        "example": "Der Anfangswert von zähler ist 0",
+        "translation": [
+            "initial value"
+        ]
+    },
+    "haltepunkt": {
+        "word": "Haltepunkt",
+        "type": "noun",
+        "forms": [
+            "der Haltepunkt",
+            "die Haltepunkte",
+            "des Haltepunkt(e)s"
+        ],
+        "example": "Durch Eingabe eines Semikolons läuft das Programm nach Ablauf der Zykluszeit bis zum nächsten Haltepunkt",
+        "translation": [
+            "breakpoint"
+        ]
+    },
+    "doppelpunkt": {
+        "word": "Doppelpunkt",
+        "type": "noun",
+        "forms": [
+            "der Doppelpunkt",
+            "die Doppelpunkte",
+            "des Doppelpunkt(e)s"
+        ],
+        "example": "Normalerweise setzt man einen Doppelpunkt vor ein Zitat",
+        "translation": [
+            "colon"
+        ]
+    },
+    "gleichheitszeichen": {
+        "word": "Gleichheitszeichen",
+        "type": "noun",
+        "forms": [
+            "das Gleichheitszeichen",
+            "die Gleichheitszeichen",
+            "des Gleichheitszeichens"
+        ],
+        "example": "Das Gleichheitszeichen bedeutet eine Zuweisung",
+        "translation": [
+            "equal signs(s)",
+            "equals"
+        ]
+    },
+    "fragezeichen": {
+        "word": "Fragezeichen",
+        "type": "noun",
+        "forms": [
+            "das Fragezeichen",
+            "die Fragezeichen",
+            "des Fragezeichens"
+        ],
+        "example": "Das Fragezeichen steht nach dem ersten Ausdruck, der zweite wird vom dritten durch einen Doppelpunkt getrennt",
+        "translation": [
+            "question mark(s)"
+        ]
+    },
+    "ausrufezeichen": {
+        "word": "Ausrufezeichen",
+        "type": "noun",
+        "forms": [
+            "das Ausrufezeichen",
+            "die Ausrufezeichen",
+            "des Ausrufezeichens"
+        ],
+        "example": "Das Ausrufezeichen negiert den Ausdruck",
+        "translation": [
+            "exclamation mark(s)",
+            "exclamation point(s)"
+        ]
+    },
+    "anfuehrungszeichen": {
+        "word": "Anführungszeichen",
+        "type": "noun",
+        "forms": [
+            "das Anführungszeichen",
+            "die Anführungszeichen",
+            "des Anführungszeichens"
+        ],
+        "example": "Ich setze zitierten Text in einfache oder doppelte Anführungszeichen",
+        "translation": [
+            "quotation mark(s)",
+            "double quote(s)"
+        ]
+    },
+    "betriebssystem": {
+        "word": "Betriebssystem",
+        "type": "noun",
+        "forms": [
+            "das Betriebssystem",
+            "die Betriebssysteme",
+            "des Betriebssystems"
+        ],
+        "example": "Das Betriebssystem war auf unseren Computern bereits vorinstalliert",
+        "translation": [
+            "operating system",
+            "OS"
+        ]
+    },
+    "geraet": {
+        "word": "Gerät",
+        "type": "noun",
+        "forms": [
+            "das Gerät",
+            "die Geräte",
+            "des Gerät(e)s"
+        ],
+        "example": "Ich verwende regelmäßig moderne Geräte wie mein iPhone X",
+        "translation": [
+            "device",
+            "gadget",
+            "equipment"
+        ]
+    },
+    "verzeichnis": {
+        "word": "Verzeichnis",
+        "type": "noun",
+        "forms": [
+            "das Verzeichnis",
+            "die Verzeichnisse",
+            "des Verzeichnisses"
+        ],
+        "example": "Ich legte ein neues Verzeichnis auf dem Desktop an",
+        "translation": [
+            "directory",
+            "folder",
+            "index"
+        ]
+    },
+    "treiber": {
+        "word": "Treiber",
+        "type": "noun",
+        "forms": [
+            "der Treiber",
+            "die Treiber",
+            "des Treibers"
+        ],
+        "example": "Der Treiber meines Druckers scheint nicht zu funktionieren",
+        "translation": [
+            "driver"
+        ]
+    },
+    "netzwerkkarte": {
+        "word": "Netzwerkkarte",
+        "type": "noun",
+        "forms": [
+            "die Netzwerkkarte",
+            "die Netzwerkkarten",
+            "der Netzwerkkarte"
+        ],
+        "example": "Für die Kommunikation über Ethernet (TCP/IP) muss der Rechner eine Netzwerkkarte besitzen",
+        "translation": [
+            "network card"
+        ]
+    },
+    "soundkarte": {
+        "word": "Soundkarte",
+        "type": "noun",
+        "forms": [
+            "die Soundkarte",
+            "die Soundkarten",
+            "der Soundkarte"
+        ],
+        "example": "Das Voice Interface wird am Microphone Eingang der Soundkarte angeschlossen und dient zur Aufnahme der Telefongespräche",
+        "translation": [
+            "sound card"
+        ]
+    },
+    "grafikkarte": {
+        "word": "Grafikkarte",
+        "type": "noun",
+        "forms": [
+            "die Grafikkarte",
+            "die Grafikkarten",
+            "der Grafikkarte"
+        ],
+        "example": "Um eine Videoverbindung aufzubauen kann es notwendig sein, dass die Treiber der verwendeten Grafikkarte auf den aktuellsten Stand gebracht werden müssen",
+        "translation": [
+            "graphics card",
+            "video card"
+        ]
+    },
+    "laufwerk": {
+        "word": "Laufwerk",
+        "type": "noun",
+        "forms": [
+            "das Laufwerk",
+            "die Laufwerk",
+            "des Laufwerk(e)s"
+        ],
+        "example": "Das alte DVD-Laufwerk meines Computers muss ausgetauscht werden",
+        "translation": [
+            "drive"
+        ]
+    },
+    "arbeitsspeicher": {
+        "word": "Arbeitsspeicher",
+        "type": "noun",
+        "forms": [
+            "der Arbeitsspeicher",
+            "die Arbeitsspeicher",
+            "des Arbeitsspeichers"
+        ],
+        "example": "Ich habe den Arbeitsspeicher meines Laptops aufgerüstet",
+        "translation": [
+            "working memory",
+            "RAM"
+        ]
+    },
+    "schleife": {
+        "word": "Schleife",
+        "type": "noun",
+        "forms": [
+            "die Schleife",
+            "die Schleifen",
+            "der Schleife"
+        ],
+        "example": "Bei for-Schleifen wird zur Steuerung normalerweise eine Variable eingesetzt",
+        "translation": [
+            "loop",
+            "bow"
+        ]
+    },
+    "verzweigung": {
+        "word": "Verzweigung",
+        "type": "noun",
+        "forms": [
+            "die Verzweigung",
+            "die Verzweigungen",
+            "der Verzweigung"
+        ],
+        "example": "Verzweigungen gehören zu den wichtigen Kontrollstrukturen",
+        "translation": [
+            "fork",
+            "branching",
+            "if-statement"
+        ]
+    },
+    "ausgabe": {
+        "word": "Ausgabe",
+        "type": "noun",
+        "forms": [
+            "die Ausgabe",
+            "die Ausgaben",
+            "der Ausgabe"
+        ],
+        "example": "Die Ausgabe dieser Funktion ist schwer zu verstehen",
+        "translation": [
+            "output",
+            "edition",
+            "issue"
+        ]
+    },
+    "eingabe": {
+        "word": "Eingabe",
+        "type": "noun",
+        "forms": [
+            "die Eingabe",
+            "die Eingaben",
+            "der Eingabe"
+        ],
+        "example": "Die Eingabe der Daten sollte schnell und einfach sein",
+        "translation": [
+            "input"
+        ]
+    },
+    "festplatte": {
+        "word": "Festplatte",
+        "type": "noun",
+        "forms": [
+            "die Festplatte",
+            "die Festplatten",
+            "der Festplatte"
+        ],
+        "example": "Meine Festplatte hat zwei Partitionen, damit ich zwei Betriebssysteme benutzen kann",
+        "translation": [
+            "hard drive"
+        ]
+    },
+    "mikroprozessor": {
+        "word": "Mikroprozessor",
+        "type": "noun",
+        "forms": [
+            "der Mikroprozessor",
+            "die Mikroprozessoren",
+            "des Mikroprozessors"
+        ],
+        "example": "Der Scheibencomputer enthält den Mikroprozessor, der den Messprozess steuert",
+        "translation": [
+            "microprocessor"
+        ]
+    },
+    "computer": {
+        "word": "Computer",
+        "type": "noun",
+        "forms": [
+            "der Computer",
+            "die Computer",
+            "des Computers"
+        ],
+        "example": "Alle unsere Computer sind mit dem Server verbunden",
+        "translation": [
+            "computer"
+        ]
+    },
+    "rechner": {
+        "word": "Rechner",
+        "type": "noun",
+        "forms": [
+            "der Rechner",
+            "die Rechner",
+            "des Rechners"
+        ],
+        "example": "Mein Rechner braucht wirklich mehr Arbeitsspeicher",
+        "translation": [
+            "computer"
+        ]
+    },
+    "laptop": {
+        "word": "Laptop",
+        "type": "noun",
+        "forms": [
+            "der Laptop",
+            "die Laptops",
+            "des Laptops"
+        ],
+        "example": "Viele Leute arbeiten mit einem Laptop in Cafés",
+        "translation": [
+            "laptop"
+        ]
+    },
+    "server": {
+        "word": "Server",
+        "type": "noun",
+        "forms": [
+            "der Server",
+            "die Server",
+            "des Servers"
+        ],
+        "example": "Das Programm rief alle fünf Minuten Daten vom Server ab",
+        "translation": [
+            "server"
+        ]
+    },
+    "anschliessen": {
+        "word": "anschließen",
+        "type": "verb",
+        "forms": [
+            "ich schließe an",
+            "du schließt an",
+            "es schließt an",
+            "ihr schließt an",
+            "angeschlossen (h)"
+        ],
+        "example": "Eine spezielle Schaltung schließt den Computer an das Netzwerk an",
+        "translation": [
+            "to connect",
+            "to hook up",
+            "to interface"
+        ]
+    },
+    "annehmen": {
+        "word": "annehmen",
+        "type": "verb",
+        "forms": [
+            "ich nehme an",
+            "du nimmst an",
+            "es nimmt an",
+            "ihr nehmt an",
+            "angenommen (h)"
+        ],
+        "example": "Ich musste das Meeting verlassen, um ein wichtiges Telefonat anzunehmen",
+        "translation": [
+            "to accept",
+            "to take",
+            "to embrace"
+        ]
+    },
+    "erstellen": {
+        "word": "erstellen",
+        "type": "verb",
+        "forms": [
+            "ich erstelle",
+            "du erstellst",
+            "es erstellt",
+            "ihr erstellt",
+            "erstellt (h)"
+        ],
+        "example": "Mit dieser Software kann man ein Flussdiagramm erstellen",
+        "translation": [
+            "to create",
+            "to make",
+            "to develop"
+        ]
+    },
+    "entfernen": {
+        "word": "entfernen",
+        "type": "verb",
+        "forms": [
+            "ich entferne",
+            "du entfernst",
+            "es entfernt",
+            "ihr entfernt",
+            "entfernt (h)"
+        ],
+        "example": "Man sollte seinen USB-Stick immer sicher entfernen",
+        "translation": [
+            "to delete",
+            "to remove"
+        ]
+    },
+    "ueberpruefen": {
+        "word": "überprüfen",
+        "type": "verb",
+        "forms": [
+            "ich überprüfe",
+            "du überprüfst",
+            "es überprüft",
+            "ihr überprüft",
+            "überprüft (h)"
+        ],
+        "example": "Bitte überprüfen Sie das Dokument sorgfältig auf Rechtschreibfehler",
+        "translation": [
+            "to check",
+            "to verify",
+            "to examine"
+        ]
+    },
+    "aktualisieren": {
+        "word": "aktualisieren",
+        "type": "verb",
+        "forms": [
+            "ich aktualisiere",
+            "du aktualisierst",
+            "es aktualisiert",
+            "ihr aktualisiert",
+            "aktualisiert (h)"
+        ],
+        "example": "Wenn eine Webseite steckenbleibt, hilft es oft, sie zu aktualisieren",
+        "translation": [
+            "to refresh",
+            "to update"
+        ]
+    },
+    "anklicken": {
+        "word": "anklicken",
+        "type": "verb",
+        "forms": [
+            "ich klicke an",
+            "du klickst an",
+            "es klickt an",
+            "ihr klickt an",
+            "angeklickt (h)"
+        ],
+        "example": "Wenn Sie das Symbol 'Bereich kopieren' in der Symbolleiste für Menüeinträge anklicken, erhalten Sie eine Dialogbox",
+        "translation": [
+            "to click sth. on",
+            "to click"
+        ]
+    },
+    "herunterladen": {
+        "word": "herunterladen",
+        "type": "verb",
+        "forms": [
+            "ich lade herunter",
+            "du lädst herunter",
+            "es lädt herunter",
+            "ihr ladet herunter",
+            "heruntergeladen (h)"
+        ],
+        "example": "Wir haben eine Testversion heruntergeladen, um die Nutzbarkeit der Software zu testen",
+        "translation": [
+            "to download"
+        ]
+    },
+    "abbrechen": {
+        "word": "abbrechen",
+        "type": "verb",
+        "forms": [
+            "ich breche ab",
+            "du brichst ab",
+            "es bricht ab",
+            "ihr brecht ab",
+            "abgebrochen (h)"
+        ],
+        "example": "Die Installation wurde aufgrund eines technischen Fehlers abgebrochen",
+        "translation": [
+            "to cancel",
+            "to abort"
+        ]
+    },
+    "ausgeben": {
+        "word": "ausgeben",
+        "type": "verb",
+        "forms": [
+            "ich gebe aus",
+            "du gibst aus",
+            "es gibt aus",
+            "ihr gebt aus",
+            "ausgegeben (h)"
+        ],
+        "example": "Am Ende der Schleife wird der Endwert per Alert Box ausgegeben",
+        "translation": [
+            "to output",
+            "to issue"
+        ]
+    },
+    "eingeben": {
+        "word": "eingeben",
+        "type": "verb",
+        "forms": [
+            "ich gebe ein",
+            "du gibst ein",
+            "es gibt ein",
+            "ihr gebt ein",
+            "eingegeben (h)"
+        ],
+        "example": "Bitte geben Sie die Daten in der vorgeschriebenen Reihenfolge ein",
+        "translation": [
+            "to enter",
+            "to input"
+        ]
+    },
+    "einfuegen": {
+        "word": "einfügen",
+        "type": "verb",
+        "forms": [
+            "ich füge ein",
+            "du fügst ein",
+            "es fügt ein",
+            "ihr fügt ein",
+            "eingefügt (h)"
+        ],
+        "example": "Ich zeigte ihm, wie man ein Bild in das Dokument einfügt",
+        "translation": [
+            "to insert",
+            "to paste"
+        ]
+    },
+    "einblenden": {
+        "word": "einblenden",
+        "type": "verb",
+        "forms": [
+            "ich blende ein",
+            "du blendest ein",
+            "es blendet ein",
+            "ihr blendet ein",
+            "eingeblendet (h)"
+        ],
+        "example": "Wenn Sie mit Parallels Desktop arbeiten, können Sie die Programmfenster über die Tastenkombination F6 aus- und einblenden",
+        "translation": [
+            "to show",
+            "to fade in"
+        ]
+    },
+    "einsetzen": {
+        "word": "einsetzen",
+        "type": "verb",
+        "forms": [
+            "ich setze ein",
+            "du setzt ein",
+            "es setzt ein",
+            "ihr setzt ein",
+            "eingesetzt (h)"
+        ],
+        "example": "JS wird aber mittlerweile auch außerhalb von Internetseiten eingesetzt",
+        "translation": [
+            "to use",
+            "to apply"
+        ]
+    },
+    "erzeugen": {
+        "word": "erzeugen",
+        "type": "verb",
+        "forms": [
+            "ich erzeuge",
+            "du erzeugst",
+            "es erzeugt",
+            "ihr erzeugt",
+            "erzeugt (h)"
+        ],
+        "example": "Wer eine eigene EXE-Anwendung erzeugen will, erledigt das alternativ mit dem BAT to EXE Converter",
+        "translation": [
+            "to create",
+            "to generate",
+            "to produce"
+        ]
+    },
+    "einbetten": {
+        "word": "einbetten",
+        "type": "verb",
+        "forms": [
+            "ich bette ein",
+            "du bettest ein",
+            "es bettet ein",
+            "ihr bettet ein",
+            "eingebettet (h)"
+        ],
+        "example": "Sie können JS an vielen Stellen eines HTML-Dokuments einbetten",
+        "translation": [
+            "to embed"
+        ]
+    },
+    "ausblenden": {
+        "word": "ausblenden",
+        "type": "verb",
+        "forms": [
+            "ich blende aus",
+            "du blendest aus",
+            "es blendet aus",
+            "ihr blendet aus",
+            "ausgeblendet (h)"
+        ],
+        "example": "Die Funktion 'Segmente ausblenden' dient dazu, segmente aus bereits vorhandenen feldern zu entfernen",
+        "translation": [
+            "to hide",
+            "to fade out"
+        ]
+    },
+    "ausfuehren": {
+        "word": "ausführen",
+        "type": "verb",
+        "forms": [
+            "ich führe aus",
+            "du führst aus",
+            "es führt aus",
+            "ihr führt aus",
+            "ausgeführt (h)"
+        ],
+        "example": "JS-Programme werden Zeile für Zeile übersetzt und ausgeführt",
+        "translation": [
+            "to execute",
+            "to conduct",
+            "to carry out"
+        ]
+    },
+    "kompatibel": {
+        "word": "kompatibel",
+        "type": "adjective",
+        "forms": [
+            "kompatible",
+            "kompatibler",
+            "kompatibles"
+        ],
+        "example": "Die neuen Softwareversionen sind nicht kompatibel mit dem alten Betriebssystem",
+        "translation": [
+            "compatible"
+        ]
+    },
+    "unmittelbar": {
+        "word": "unmittelbar",
+        "type": "adjective",
+        "additional": true,
+        "forms": [
+            "unmittelbare",
+            "unmittelbarer",
+            "unmittelbares"
+        ],
+        "example": "Mein neues Handy bietet unmittelbaren Zugang zu meinem Bankkonto",
+        "translation": [
+            "direct",
+            "immediate",
+            "instant"
+        ]
+    },
+    "unmittelbar_adv": {
+        "word": "unmittelbar",
+        "type": "adverb",
+        "forms": [
+            "unmittelbar"
+        ],
+        "example": "Der Codeblock wurde unmittelbar nach der Schleife ausgeführt",
+        "translation": [
+            "directly",
+            "immediately",
+            "instantly"
+        ]
+    },
+    "entsprechend": {
+        "word": "entsprechend",
+        "type": "adjective",
+        "additional": true,
+        "forms": [
+            "entsprechende",
+            "entsprechender",
+            "entsprechendes"
+        ],
+        "example": "Ein Wert wird der entsprechenden Variable zugewiesen",
+        "translation": [
+            "appropriate",
+            "relevant",
+            "fitting"
+        ]
+    },
+    "entsprechend_adv": {
+        "word": "entsprechend",
+        "type": "adverb",
+        "forms": [
+            "entsprechend"
+        ],
+        "example": "Gute Arbeit wird entsprechend honoriert",
+        "translation": [
+            "accordingly"
+        ]
+    },
+    "wiederum": {
+        "word": "wiederum",
+        "type": "adverb",
+        "forms": [
+            "wiederum"
+        ],
+        "example": "Innerhalb einer Zeile wiederum gibt es einzelne Zellen",
+        "translation": [
+            "in turn",
+            "again"
+        ]
+    },
+    "ebenfalls": {
+        "word": "ebenfalls",
+        "type": "adverb",
+        "forms": [
+            "ebenfalls"
+        ],
+        "example": "Zahlen werden für Berechnungen benötigt und ebenfalls in Variablen gespeichert",
+        "translation": [
+            "also",
+            "likewise",
+            "as well"
+        ]
+    },
+    "mittlerweile": {
+        "word": "mittlerweile",
+        "type": "adverb",
+        "forms": [
+            "mittlerweile"
+        ],
+        "example": "Zur Eingabe wird die mittlerweile bekannte Methode genutzt",
+        "translation": [
+            "meanwhile",
+            "by now",
+            "in the meantime"
+        ]
+    },
+    "zunaechst": {
+        "word": "zunächst",
+        "type": "adverb",
+        "forms": [
+            "zunächst"
+        ],
+        "example": "Zunächst hat die Variable den Wert 0",
+        "translation": [
+            "initially",
+            "first of all",
+            "in the first place"
+        ]
+    },
+    "allerdings": {
+        "word": "allerdings",
+        "type": "adverb",
+        "forms": [
+            "allerdings"
+        ],
+        "example": "Sie haben dieselben Eigenschaften, allerdings mit unterschiedlichen Werten",
+        "translation": [
+            "however",
+            "though",
+            "but"
+        ]
+    },
+    "jeweils": {
+        "word": "jeweils",
+        "type": "adverb",
+        "forms": [
+            "jeweils"
+        ],
+        "example": "Es gibt einzelne Zellen, die jeweils durch einen td-Container gebildet werden",
+        "translation": [
+            "in each case",
+            "at a time",
+            "respectively"
+        ]
+    },
+    "woerterbuch": {
+        "word": "Wörterbuch",
+        "type": "noun",
+        "translation": [
+            "vocabulary",
+            "dictionary"
+        ],
+        "forms": [
+            "das Wörterbuch",
+            "die Wörterbücher",
+            "des Wörterbuchs"
+        ],
+        "example": "Dieses Wörterbuch enthält IT-Begriffe"
+    },
+    "aufruf": {
+        "word": "Aufruf",
+        "type": "noun",
+        "translation": [
+            "call",
+            "invocation"
+        ],
+        "forms": [
+            "der Aufruf",
+            "die Aufrufe",
+            "des Aufruf(e)s"
+        ],
+        "example": "Die innere Funktion wird zugegriffen während des Aufrufs der äußeren Funktion"
+    },
+    "hauptplatine": {
+        "word": "Hauptplatine",
+        "type": "noun",
+        "translation": [
+            "motherboard",
+            "main board"
+        ],
+        "forms": [
+            "die Hauptplatine",
+            "die Hauptplatinen",
+            "der Hauptplatine"
+        ],
+        "example": "Der Bau von Notebooks umfasst in der Regel die Bestückung der Hauptplatine, den Zusammenbau der Geräte und eine abschließende Qualitätskontrolle"
+    },
+    "anschliessend": {
+        "word": "anschließend",
+        "type": "adjective",
+        "translation": [
+            "subsequent",
+            "following"
+        ],
+        "forms": [
+            "anschließende",
+            "anschließender",
+            "anschließendes"
+        ],
+        "example": "Das Konzert und die anschließende Party waren ein voller Erfolg",
+        "additional": true
+    },
+    "anschliessend_adv": {
+        "word": "anschließend",
+        "type": "adverb",
+        "translation": [
+            "subsequently",
+            "afterwards"
+        ],
+        "forms": [
+            "anschließend"
+        ],
+        "example": "Der Lehrer sprach erst mit dem Kind und anschließend mit dessen Eltern"
+    },
+    "hinzufuegen": {
+        "word": "hinzufügen",
+        "type": "verb",
+        "translation": [
+            "to add",
+            "to append"
+        ],
+        "forms": [
+            "ich füge hinzu",
+            "du fügst hinzu",
+            "es fügt hinzu",
+            "ihr fügt hinzu",
+            "hinzugefügt (h)"
+        ],
+        "example": "Diese Funktion fügt dem Array ein neues Element hinzu"
+    },
+    "auto": {
+        "word": "Auto",
+        "type": "noun",
+        "translation": [
+            "car"
+        ],
+        "forms": [
+            "das Auto",
+            "die Autos",
+            "des Autos"
+        ],
+        "example": "Ich habe Auto"
+    }
+}
