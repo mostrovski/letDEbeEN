@@ -18,7 +18,7 @@ that sentence. I didn't find this translation of *Verzweigung* anywhere.
 
 Another problem is that traditional dictionary apps are mainly designed for the
 reference. If one also wants to **learn** a couple of words, he or she would
-probably want the dictionary entry to be presented the other way.
+probably want the dictionary entries to be presented the other way.
 
 In brief, these were the main incentives for me to come up with this tiny 
 single-page web application.
@@ -35,7 +35,7 @@ information:
 - a relevant example in German.
 
 I believe these data are essential for *learning* the word. Therefore, my app 
-instantly shows them all for every entry once it's opened - no extra clicks.
+instantly shows them all for every opened entry - no extra clicks.
 
 ## Functionality
 
@@ -73,11 +73,11 @@ A user can:
 
 ## How to run it
 
-1. Download and extract the repository;
-2. make sure **Node.js** is installed on your computer. Otherwise, download and 
-   install it from the download page (see Dependencies above);
-3. in your terminal, `cd` to the directory of the application (see step 1);
-4. make sure you are on the same level where the `package.json` is;
-5. run the command `npm install`, this will install necessary modules;
-6. run the command `node app.js` to start the server;
-7. in your browser, open *http://localhost:8080/*.
+1. Download and extract the repository.
+2. Make sure **Node.js** is installed on your computer. Otherwise, download and 
+   install it from the download page (see Dependencies above).
+3. In your terminal, `cd` to the directory of the application (see step 1).
+4. Make sure you are on the same level where the `package.json` is.
+5. Run the command `npm install`, this will install necessary modules.
+6. Run the command `node app.js` to start the server.
+7. In your browser, open *localhost:8080*.
