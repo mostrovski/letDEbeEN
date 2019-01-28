@@ -60,7 +60,15 @@ A user can:
 - `form.html` - html fragment with the managing form;
 - `index.html` - html of the page;
 - `main.css` - styles;
-- `dictionary.json` - the dictionary.  
+- `dictionary.json` - the dictionary.
+
+*What's in code:*
+
+- ES6 syntax;
+- Objects;
+- Sets;
+- Promises;
+- AJAX with fetch API;  
 
 ## Dependencies (built with) 
 
