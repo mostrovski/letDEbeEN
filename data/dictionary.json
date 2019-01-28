@@ -1228,17 +1228,50 @@
         ],
         "example": "Diese Funktion fügt dem Array ein neues Element hinzu"
     },
-    "auto": {
-        "word": "Auto",
+    "einfuehrung": {
+        "word": "Einführung",
         "type": "noun",
         "translation": [
-            "car"
+            "introduction",
+            "advent"
         ],
         "forms": [
-            "das Auto",
-            "die Autos",
-            "des Autos"
+            "die Einführung",
+            "die Einführungen",
+            "der Einführung"
         ],
-        "example": "Ich habe Auto"
+        "example": "In der Einführung des Buchs werden alle Kapitel zusammengefasst"
+    },
+    "entwerfen": {
+        "word": "entwerfen",
+        "type": "verb",
+        "translation": [
+            "to design",
+            "to create",
+            "to draft"
+        ],
+        "forms": [
+            "ich entwerfe",
+            "du entwirfst",
+            "es entwirft",
+            "ihr entwerft",
+            "entworfen (h)"
+        ],
+        "example": "Unsere Grafikerin hat ein neues Firmenlogo entworfen"
+    },
+    "zugreifen": {
+        "word": "zugreifen",
+        "type": "verb",
+        "translation": [
+            "to access"
+        ],
+        "forms": [
+            "ich greife zu",
+            "du greifst zu",
+            "es greift zu",
+            "ihr greift zu",
+            "zugegriffen (h)"
+        ],
+        "example": "Auf die geschützte Eigenschaft des Objekts kann man nicht von Außen zugreifen"
     }
 }
