@@ -68,7 +68,7 @@ A user can:
 - [CSS](https://www.w3.org/Style/CSS/)
 - [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
 - [Node.js](https://nodejs.org/en/download/)
-- [Express](http://expressjs.com/)
+- [express](http://expressjs.com/)
 - [body-parser](https://github.com/expressjs/body-parser)
 
 ## How to run it
@@ -78,6 +78,7 @@ A user can:
    install it from the download page (see Dependencies above).
 3. In your terminal, `cd` to the directory of the application (see step 1).
 4. Make sure you are on the same level where the `package.json` is.
-5. Run the command `npm install`, this will install necessary modules.
+5. Run the command `npm install` - this will create the *node_modules* directory 
+   and install necessary modules (*express, body-parser*) there.
 6. Run the command `node app.js` to start the server.
 7. In your browser, open *localhost:8080*.
