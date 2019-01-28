@@ -120,11 +120,11 @@ const validateWordSpelling = (source) => {
         result = false;
     }
     if (!doesExist(source[0].value) && $('#update_type').checked) {
-        notifyThatExistsNot(source[0].value, '#exst_word_upd');
+        notifyThatExistsNot(source[0].value, '#exist_word_upd');
         result = false;
     }
     if (!doesExist(source[0].value) && $('#delete_type').checked) {
-        notifyThatExistsNot(source[0].value, '#exst_word_del');
+        notifyThatExistsNot(source[0].value, '#exist_word_del');
         result = false;
     }
     return result;
