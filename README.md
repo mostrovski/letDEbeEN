@@ -68,7 +68,8 @@ A user can:
 - Objects;
 - Sets;
 - Promises;
-- AJAX with fetch API;  
+- AJAX with fetch API;
+- RegExp.  
 
 ## Dependencies (built with) 
 
