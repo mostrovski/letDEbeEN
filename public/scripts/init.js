@@ -25,7 +25,7 @@ const showInitialWord = () => {
             } else {
                 var problem = new Error('failed to catch the source');
                 reject(problem);
-            }   
+            }
         }
     ).then(
         (random) => showWordData(words[random]),
@@ -35,8 +35,8 @@ const showInitialWord = () => {
         }
     );
 };
-// show in case the dictionary was not loaded fast enough 
-const showDefaultWord = () => { 
+// show in case the dictionary was not loaded fast enough
+const showDefaultWord = () => {
     $('.management input').value = 'Dualzahl';
     $('.german span').innerHTML = 'Dualzahl';
     $$('.word__details')[0].innerHTML = 'binary number<br>(noun)';

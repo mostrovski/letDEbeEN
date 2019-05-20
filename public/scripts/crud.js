@@ -10,7 +10,7 @@ const createEntry = (mode = 'created') => {
     let translation = Array.from(setTranslation('#general input'));
     let example = $('#word_example').value;
     let type = setWordType();
-    let forms = setWordForms(); 
+    let forms = setWordForms();
     dictionary[entry] = {
         word: word,
         type: type,
@@ -79,7 +79,7 @@ const updateDictionary = (mode) => {
         () => console.log ('Oops... Something went wrong')
     ).then(
         response => window.alert('The entry was '+mode+'. '+response)
-    );  
+    );
 };
 /****************************************************************************
  *
@@ -141,7 +141,7 @@ const composeVerbForms = () => {
         forms.push(currentForm);
     });
     forms.push(
-        $('#sein_type').checked ? 
+        $('#sein_type').checked ?
             $('#form_perfect').value + ' ' + formAddition[1]:
             $('#form_perfect').value + ' ' + formAddition[0]
     );

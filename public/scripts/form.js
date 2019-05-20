@@ -13,12 +13,12 @@ const setFormEvents = () => {
         $('#__manage-buttons')
     ];
     const WORD_FORMS = [
-        $('#__noun_forms'), 
-        $('#__verb_forms'), 
-        $('#__adjective_forms'), 
+        $('#__noun_forms'),
+        $('#__verb_forms'),
+        $('#__adjective_forms'),
         $('#__additional_adverb')
-    ];  
-    
+    ];
+
     $('#__choose_action').onchange = () => {
         if ($('#create_type').checked) {
             action = 'create';
@@ -28,17 +28,17 @@ const setFormEvents = () => {
         } else if ($('#update_type').checked) {
             action = 'update';
             openSections($('#__update'));
-            hideSections(...MAIN_SECTIONS, ...WORD_FORMS, $('#__delete'));  
+            hideSections(...MAIN_SECTIONS, ...WORD_FORMS, $('#__delete'));
         } else if ($('#delete_type').checked) {
             action = 'delete';
             openSections($('#__delete'));
-            hideSections(...MAIN_SECTIONS, ...WORD_FORMS, $('#__update'));  
-        }   
+            hideSections(...MAIN_SECTIONS, ...WORD_FORMS, $('#__update'));
+        }
     };
-    
+
     $('#word_spell').oninput = () => {
         if (action === 'create') {
-            validateWordSpelling($$('#word_spell'));    
+            validateWordSpelling($$('#word_spell'));
         }
     };
 
@@ -49,7 +49,7 @@ const setFormEvents = () => {
 
     $('#__choose_type').onclick = () => {
         if (action === 'create') {
-            if ($('#noun_type').checked) 
+            if ($('#noun_type').checked)
                 showTargetSection($('#__noun_forms'), WORD_FORMS);
             if ($('#verb_type').checked)
                 showTargetSection($('#__verb_forms'), WORD_FORMS);
@@ -64,12 +64,12 @@ const setFormEvents = () => {
     };
 
     $('#add_adverb').onclick = () => {
-        if ($('#adverb_true').checked) 
+        if ($('#adverb_true').checked)
             openSections($('#__additional_adverb'));
-        if ($('#adverb_false').checked) 
+        if ($('#adverb_false').checked)
             hideSections($('#__additional_adverb'));
     };
-    
+
     $('#entry_update').onclick = () => {
         if (validateWordSpelling($$('#word_upd'))) {
             resetFlexible();
@@ -88,23 +88,23 @@ const setFormEvents = () => {
 
     $('#clear_form').onclick = () => {
         hideSections(
-            ...WORD_FORMS, 
-            ...MAIN_SECTIONS, 
-            $('#__update'), 
+            ...WORD_FORMS,
+            ...MAIN_SECTIONS,
+            $('#__update'),
             $('#__delete')
         );
     };
-    
+
     $('#save_changes').onclick = () => {
         if (validateAll(action, entry)) {
             if (action === 'create') {
-                createEntry(); 
+                createEntry();
                 $('#clear_form').click();
-            } 
+            }
             if (action === 'update') {
                 let updated = updateEntry($('#word_spell').value, entry);
                 if (updated) $('#clear_form').click();
-            } 
+            }
         }
     };
 };
@@ -180,7 +180,7 @@ const fillOutForm = (entry) => {
             fillOutAdjectiveForms(entry);
             fillOutExtraDetails(entry);
             break;
-    }   
+    }
 };
 
 const fillOutGeneralDetails = (entry) => {
@@ -198,7 +198,7 @@ const fillOutNounForms = (entry) => {
 const fillOutVerbForms = (entry) => {
     let forms = entry.forms;
     for (let i = 0; i < (forms.length - 1); i++) {
-        $$('#present_forms input')[i].value = 
+        $$('#present_forms input')[i].value =
             forms[i].substring(forms[i].indexOf(' ') + 1);
     }
     let lastForm = forms[forms.length - 1];
@@ -214,7 +214,7 @@ const fillOutVerbForms = (entry) => {
 
 const fillOutAdjectiveForms = (entry) => {
     entry.forms.forEach((form, i) => {
-        $$('#__adjective_forms input[type=text]')[i].value = form; 
+        $$('#__adjective_forms input[type=text]')[i].value = form;
     });
 };
 
@@ -226,7 +226,7 @@ const fillOutExtraDetails = (entry) => {
 };
 
 const fillOutTranslations = (entry, sections, target) => {
-    let translations = 
+    let translations =
         target === '#general' ? entry.translation : entry.extraTranslation;
     while ($$(sections).length < translations.length) {
         addTranslationField(target);
@@ -246,17 +246,17 @@ const addTranslationField = (spot) => {
     else {
         let cut = newInput.id.search(/\d/);
         newInput.id = newInput.id.slice(0, cut) + newId;
-    } 
+    }
     $(spot).appendChild(newInput);
 };
 
-const removeTranslationField = (spot) => { 
+const removeTranslationField = (spot) => {
     let inputNum = $$(spot+' input').length;
     let lastIndex = inputNum - 1;
     if (lastIndex > 0) {
         let lastInput = $$(spot+' input')[lastIndex];
         $(spot).removeChild(lastInput);
-    }   
+    }
 };
 
 const showTargetSection = (targetSection, sections) => {
@@ -274,5 +274,5 @@ const openSections = (...s) => {
     s.forEach(el => {
         if (el.classList.contains('hidden')) el.classList.remove('hidden');
     });
-    s[0].scrollIntoView();  
+    s[0].scrollIntoView();
 };

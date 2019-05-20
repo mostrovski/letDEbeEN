@@ -2,7 +2,7 @@
 const SEARCH_INPUT = $('.management input');
 const TRANSLATE = $$('.management button')[0];
 const HISTORY = $$('.management button')[1];
-const MANAGE = $$('.management button')[2]; 
+const MANAGE = $$('.management button')[2];
 const GERMAN_BOX = $('.german span');
 const ENGLISH_BOX = $$('.word__details')[0];
 const FORMS_BOX = $$('.word__details')[1];
@@ -23,7 +23,7 @@ const enableOperations = () => {
     $('#verbs').onclick = () => showWords('verb');
     $('#adjectives').onclick = () => showWords('adjective');
     $('#adverbs').onclick = () => showWords('adverb');
-    $('#hide').onclick = () => hideManagingSections();  
+    $('#hide').onclick = () => hideManagingSections();
 };
 /****************************************************************************
  *
@@ -71,7 +71,7 @@ const replaceSpecialChars = (str) => {
 };
 
 const showWordData = (entry) => {
-    let englishContent = 
+    let englishContent =
         dictionary[entry]['translation'].join('<br>')+'<br>('+
         dictionary[entry]['type']+')<br>';
     SEARCH_INPUT.value = dictionary[entry]['word'];
@@ -85,13 +85,13 @@ const showWordData = (entry) => {
 };
 
 const showNotFound = (entry) => {
-    let url = 
+    let url =
         `https://www.linguee.de/deutsch-englisch/uebersetzung/${entry}.html`;
     let otherLink = document.createElement('a');
     let otherLinkText = document.createTextNode('this');
     otherLink.href = url;
     otherLink.setAttribute('target', '_blank');
-    otherLink.appendChild(otherLinkText);   
+    otherLink.appendChild(otherLinkText);
     SEARCH_INPUT.value = SEARCH_INPUT.value.toUpperCase();
     GERMAN_BOX.innerHTML = 'Ups!';
     ENGLISH_BOX.innerHTML = "I don't know this word...";
@@ -153,7 +153,7 @@ const hideFormArea = () => {
 
 const hideManagingSections = () => {
     eraseCurrentTable();
-    hideFormArea(); 
+    hideFormArea();
 };
 /****************************************************************************
  *
@@ -171,11 +171,11 @@ const createTable = (source) => {
     let table = document.createElement('table');
     let header = table.createTHead();
     let headerRow = header.insertRow(0);
-    headerRow.innerHTML = 
+    headerRow.innerHTML =
         '<th>Word</th>'+
         '<th>Translation</th>'+
         '<th>Type</th>';
-    let tBody = document.createElement('tbody'); 
+    let tBody = document.createElement('tbody');
     fillOutTable(tBody, source);
     table.appendChild(tBody);
     TABLE_AREA.appendChild(table);
@@ -185,7 +185,7 @@ const createTable = (source) => {
 
 const fillOutTable = (target, source) => {
     source.forEach(word => {
-        target.innerHTML += 
+        target.innerHTML +=
         "<tr>"+
         "<td>"+dictionary[word]["word"]+"</td>"+
         "<td>"+dictionary[word]["translation"].join(", ")+"</td>"+
@@ -199,7 +199,7 @@ const makeTableInteractive = (source) => {
         row.onclick = () => showWordData(source[i]);
     });
 };
-    
+
 const eraseCurrentTable = () => {
     if ($('table')) $('table').remove();
 };

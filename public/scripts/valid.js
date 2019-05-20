@@ -30,7 +30,7 @@ const validateVerbSection = () => {
 const validateAdjectiveSection = () => {
     let firstResult = false;
     let secondResult = true;
-    firstResult = 
+    firstResult =
         validateAdjectiveForms($$('#__adjective_forms input[type=text]')) &&
         validateRadioButtons($$('#add_adverb input'));
     if ($('#adverb_true').checked) {
@@ -47,7 +47,7 @@ const validateAll = (mode, data = null) => {
         if ($('#verb_type').checked) result = validateVerbSection();
         if ($('#adj_type').checked) result = validateAdjectiveSection();
         if ($('#adv_type').checked) result = true;
-    } 
+    }
     return result;
 };
 /****************************************************************************
@@ -78,10 +78,10 @@ const validateTranslation = (source) => {
         .forEach(input => {
             if (forbidden.test(input.value) || input.value == '')
                 highlightInvalid(input);
-        }); 
+        });
     return Array.from(source)
         .every(input => !(forbidden.test(input.value) || input.value == ''));
-    
+
 };
 
 const validateNounForms = (source) => {
@@ -140,7 +140,7 @@ const validateWordSpellingForUpdate = (source, data) => {
         if (doesExist(source[0].value)) {
             notifyThatExists(source[0].value);
             result = false;
-        } 
+        }
     }
     return result;
 };
@@ -156,7 +156,7 @@ const validateTextInputs = (source, forbidden, pattern) => {
                 highlightInvalid(input);
             }
         });
-        
+
     return Array.from(source).every(input => pattern.test(input.value));
 };
 
@@ -167,15 +167,15 @@ const highlightInvalid = (target) => {
 };
 
 const doesExist = (word) => {
-    return replaceSpecialChars(word.toLowerCase()) in dictionary; 
-}; 
+    return replaceSpecialChars(word.toLowerCase()) in dictionary;
+};
 
 const notifyThatExists = (word) => {
     let notification = document.createElement('span');
     notification.classList.add('red');
-    notification.innerText = ` "${word}" is already in the dictionary!`;    
+    notification.innerText = ` "${word}" is already in the dictionary!`;
     $('#new_word').scrollIntoView();
-    if ($('#new_word').children.length === 0) 
+    if ($('#new_word').children.length === 0)
         $('#new_word').appendChild(notification);
     setTimeout(() => {
         notification.remove();
@@ -186,9 +186,9 @@ const notifyThatExistsNot = (word, target) => {
     if (word != '') {
         let notification = document.createElement('span');
         notification.classList.add('red');
-        notification.innerText = ` "${word}" is not in the dictionary!`;    
+        notification.innerText = ` "${word}" is not in the dictionary!`;
         $(target).scrollIntoView();
-        if ($(target).children.length === 0) 
+        if ($(target).children.length === 0)
             $(target).appendChild(notification);
         setTimeout(() => {
             notification.remove();
